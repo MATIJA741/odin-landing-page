@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 150px 100px 150px;
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: auto;
+    max-width: 300px;
+    max-height: 220px;
+    align-items: center;
+    gap: 8px;
+    word-wrap: break-word;
+    flex-shrink: 0;
+}
+
+.image {
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    max-width: 200px;
+    align-self: flex-start;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    color: #E5E7EB;
+    font-weight: 550;
+}
+
+.big {
+    align-self: flex-start;
+    font-size: 44px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.small {
+    font-size: 16px;
+    color: #E5E7EB;
+}
