@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,7 +23,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-right: 450px;
+    margin-right: 500px;
 }
 
 a {
@@ -77,8 +77,9 @@ ul {
     border: none;
     font-size: 15px;
     color: #E5E7EB;
-    font-weight: 550;
+    font-weight: 700;
     flex: 1 0 auto;
+
 }
 
 .big {
@@ -171,4 +172,45 @@ ul {
     align-self: flex-end;
     font-size: 24px;
     min-width: 300px;
+}
+
+/* Action */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    min-height: 120px;
+    min-width: 1000px;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-flow: column wrap;
+    color: #E5E7EB;
+}
+
+.action-text-big {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-text-small {
+    font-size: 20px;
+}
+
+.sign-up.action {
+    border: 2px solid white;
+    align-self: center;
+    flex: 0 0 auto;
 }
