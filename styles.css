@@ -214,3 +214,18 @@ ul {
     align-self: center;
     flex: 0 0 auto;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 120px;
+}
+
+.copyright {
+    font-size: 20px;
+    color: #E5E7EB;
+}
